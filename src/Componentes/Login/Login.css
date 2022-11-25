@@ -1,0 +1,178 @@
+.form {
+    width: 45%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.todoForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+    box-shadow: 5px 8px 7px 1px rgba(0, 0, 0, 0.602);
+    background-color: #1A1436;
+    width: 80%;
+    max-width: 400px;
+}
+
+.todoForm a {
+    color: #CA4B80;
+    transition: 0.1s;
+}
+
+.todoForm a:hover {
+    color: white;
+}
+
+div h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.username {
+    width: 100%;
+}
+
+.username p {
+    margin: .2rem 0;
+    font-weight: 600;
+
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.363);
+}
+
+.username input {
+    font-weight: 700;
+    color: white;
+    background-color: #CA4B80;
+    padding-left: .5rem;
+    border: none;
+    height: 2rem;
+    border-radius: .4rem;
+    width: 97%;
+    outline: 0;
+}
+
+.password {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.password p {
+    margin: .2rem 0;
+    font-weight: 600;
+
+}
+
+.password input {
+    color: white;
+    background-color: #CA4B80;
+    padding-left: .5rem;
+    border: none;
+    height: 2rem;
+    border-radius: .4rem;
+    width: 97%;
+    outline: 0;
+}
+
+.Lembrar {
+    margin: 5px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Lembrar input {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+input:checked {
+    background-color: #663378;
+    width: 20px;
+    height: 20px;
+}
+
+.Lembrar div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.botao {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao button {
+    width: 100%;
+    border: none;
+    background-color: #663378;
+    color: white;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+    padding: 0.7rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.botao button:hover {
+    background-color: #934dad;
+}
+
+.inscreverSe {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.logarCom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.logarCom img {
+    width: 40px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.logarCom img:hover {
+    transform: translateY(-5px);
+}
+
+.iconesLogarCom {
+    display: flex;
+    gap: 1.2rem;
+}
+
+@media (max-width: 850px){
+    .form {
+        width: 95%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,10 @@
+.imgPrincipal{
+    width: 55%;
+    height: 100vh;
+}
+
+@media (max-width: 850px){
+    .imgPrincipal{
+        display: none;
+    }
+}
