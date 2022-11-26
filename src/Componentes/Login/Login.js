@@ -11,7 +11,7 @@ function Login() {
 
                 <div className="username">
                     <p>Username</p>
-                    <input type="text" placeholder="@mail.com"></input>
+                    <input type="email" placeholder="@mail.com"></input>
                 </div>
 
                 <div className="password">
